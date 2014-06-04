@@ -46,7 +46,7 @@ Library
                    , random
                    , zlib
                    , zlib-bindings >= 0.1 && < 0.2
-                   , hourglass
+                   , hourglass < 0.2.0
                    , unix
                    , patience
   Exposed-modules:   Data.Git
@@ -88,7 +88,7 @@ Executable           Hit
                    , filepath
                    , directory
                    , hit
-                   , hourglass
+                   , hourglass < 0.2.0
                    , patience
     Buildable: True
   else
@@ -104,7 +104,7 @@ Test-Suite test-unit
                    , bytestring
                    , test-framework >= 0.3
                    , test-framework-quickcheck2 >= 0.2
-                   , hourglass
+                   , hourglass < 0.2.0
                    , hit
 
 Test-Suite test-repository
@@ -117,7 +117,7 @@ Test-Suite test-repository
                    , bytestring
                    , test-framework >= 0.3
                    , test-framework-quickcheck2 >= 0.2
-                   , hourglass
+                   , hourglass < 0.2.0
                    , bytedump >= 1.0
                    , hit
 
